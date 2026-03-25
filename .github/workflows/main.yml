@@ -46,7 +46,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build # Replace with your actual build output folder (e.g., 'dist', 'public', etc.)
+          path: ./dist # Replace with your actual build output folder (e.g., 'dist', 'public', etc.)
 
       - name: Deploy to GitHub Pages
         id: deployment
